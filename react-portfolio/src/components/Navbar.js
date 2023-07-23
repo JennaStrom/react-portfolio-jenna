@@ -1,9 +1,9 @@
 import React from "react";
 
 // export default function Navbar() {}
-function NavTabs({ currentPage, handlePageChange }) {
+function Navbar({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav nav-tabs">
+        <ul className="nav nav-bar">
             <li className="nav-item">
                 <a
                     href="#about"
