@@ -1,11 +1,11 @@
 import React from "react";
-import { projects } from "../data";
+import { projects } from "../../data";
 
 export default function Portfolio() {
     <section id="portfolio">
         <h1>Portfolio</h1>
         <p>Checkout the apps I have created below!</p>
-        <div className="flex flex-wrap -m-4">
+        <div className="">
             {projects.map((project) => (
                 <a
                     href={project.link}

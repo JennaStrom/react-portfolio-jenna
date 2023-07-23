@@ -3,6 +3,8 @@ import React from "react";
 // export default function Navbar() {}
 function Navbar({ currentPage, handlePageChange }) {
     return (
+        <section>
+            <h1>Jenna Strom</h1>
         <ul className="nav nav-bar">
             <li className="nav-item">
                 <a
@@ -41,6 +43,7 @@ function Navbar({ currentPage, handlePageChange }) {
                 </a>
             </li>
         </ul>
+        </section>
     );
 }
 
