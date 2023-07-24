@@ -1,4 +1,5 @@
 import React from "react";
+import MainPage from "./MainPage"
 
 // export default function Navbar() {}
 function Navbar({ currentPage, handlePageChange }) {
