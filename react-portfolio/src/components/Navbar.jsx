@@ -4,46 +4,48 @@ import MainPage from "./MainPage"
 // export default function Navbar() {}
 function Navbar({ currentPage, handlePageChange }) {
     return (
-        <section>
-            <h1>Jenna Strom</h1>
-        <ul className="nav nav-bar">
-            <li className="nav-item">
-                <a
-                    href="#about"
-                    onClick={() => handlePageChange('About')}
-                    className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-                >
-                    About Me
-                </a>
-            </li>
-            <li className="nav-item">
-                <a
-                    href="#portfolio"
-                    onClick={() => handlePageChange('Portfolio')}
-                    className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-                >
-                    Portfolio
-                </a>
-            </li>
-            <li className="nav-item">
-                <a
-                    href="#contact"
-                    onClick={() => handlePageChange('Contact')}
-                    className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >
-                    Contact
-                </a>
-            </li>
-            <li className="nav-item">
-                <a
-                    href="#resume"
-                    onClick={() => handlePageChange('Resume')}
-                    className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                >
-                    Resume
-                </a>
-            </li>
-        </ul>
+        <section className="container-fluid border bg-info">
+            <header className="row">
+                <h1 className="col">Jenna Strom</h1>
+                <ul className="nav nav-bar col">
+                    <li className="nav-item">
+                        <a
+                            href="#about"
+                            onClick={() => handlePageChange('About')}
+                            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                        >
+                            About Me
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a
+                            href="#portfolio"
+                            onClick={() => handlePageChange('Portfolio')}
+                            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                        >
+                            Portfolio
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a
+                            href="#contact"
+                            onClick={() => handlePageChange('Contact')}
+                            className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                        >
+                            Contact
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a
+                            href="#resume"
+                            onClick={() => handlePageChange('Resume')}
+                            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        >
+                            Resume
+                        </a>
+                    </li>
+                </ul>
+            </header>
         </section>
     );
 }
