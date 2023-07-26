@@ -2,6 +2,7 @@ import React from "react";
 import { projects } from "../../data";
 
 export default function Portfolio() {
+    return (
     <section id="portfolio">
         <h1>Portfolio</h1>
         <p>Checkout the apps I have created below!</p>
@@ -31,4 +32,5 @@ export default function Portfolio() {
             ))}
         </div>
     </section>
+    )
 }

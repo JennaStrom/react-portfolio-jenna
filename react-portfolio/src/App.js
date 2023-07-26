@@ -10,9 +10,7 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <main>
-      <Navbar />
-      {/* <About /> */}
-      <Footer />
+     <MainPage />
     </main>
   );
 }
