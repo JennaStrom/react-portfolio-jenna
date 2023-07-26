@@ -3,34 +3,41 @@ import { projects } from "../../data";
 
 export default function Portfolio() {
     return (
-    <section id="portfolio">
-        <h1>Portfolio</h1>
-        <p>Checkout the apps I have created below!</p>
-        <div className="">
-            {projects.map((project) => (
-                <a
-                    href={project.link}
-                    key={project.image}
-                    className="">
-                    <div className="">
-                        <img
-                            alt="gallery"
-                            className=""
-                            src={project.image}
-                        />
-                        <div className="">
-                            <h2 className="">
-                                {project.subtitle}
-                            </h2>
-                            <h1 className="">
-                                {project.title}
-                            </h1>
-                            <p className="">{project.description}</p>
-                        </div>
+        <div>
+            <h1 className="container">Portfolio</h1>
+            <section id="portfolio" className="container">
+                <div className="">
+                    <p>Checkout the apps I have created below!</p>
+                    <div className="row row-cols-2">
+                        {projects.map((project) => (
+                            <div>
+                                <a
+                                    href={project.link}
+                                    key={project.image}
+                                    className="col">
+                                    <div className="col">
+                                        <img
+                                            alt="gallery"
+                                            className="img-fluid"
+                                            src={project.image}
+                                        />
+                                    </div>
+                                    <h1 className="col">
+                                        {project.title}
+                                    </h1>
+                                </a>
+                                <div className="col">
+                                    <h2 className="col">
+                                        {project.subtitle}
+                                    </h2>
+                                    <p className="col">{project.description}</p>
+                                </div>
+                            </div>
+
+                        ))}
                     </div>
-                </a>
-            ))}
+                </div>
+            </section>
         </div>
-    </section>
     )
 }
