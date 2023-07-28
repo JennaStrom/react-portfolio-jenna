@@ -14,6 +14,7 @@ export default function Portfolio() {
                                 <a
                                     href={project.link}
                                     key={project.image}
+                                    target="blank"
                                     className="col">
                                     <div className="col">
                                         <img
