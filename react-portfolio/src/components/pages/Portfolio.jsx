@@ -8,17 +8,18 @@ export default function Portfolio() {
             <section id="portfolio" className="container">
                 <div className="">
                     <p>Checkout the apps I have created below!</p>
-                    <div className="row row-cols-2">
+                    <div className="row row-cols-2 container-fluid">
                         {projects.map((project) => (
                             <div>
                                 <a
                                     href={project.link}
+                                    target="_blank"
                                     key={project.image}
                                     className="col">
                                     <div className="col">
                                         <img
-                                            alt="gallery"
                                             className="img-fluid"
+                                            alt="gallery"
                                             src={project.image}
                                         />
                                     </div>
