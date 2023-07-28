@@ -4,10 +4,10 @@ import MainPage from "./MainPage"
 // export default function Navbar() {}
 function Navbar({ currentPage, handlePageChange }) {
     return (
-        <section className="container-fluid border bg-info">
+        <section className="container-fluid border bg-light mb-5">
             <header className="row">
-                <h1 className="col">Jenna Strom</h1>
-                <ul className="nav nav-bar col">
+                {/* <h1 className="col">Jenna Strom</h1> */}
+                <ul className="nav nav-bar col d-flex justify-content-end">
                     <li className="nav-item">
                         <a
                             href="#about"
