@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <main>
+    <main className="bg-light">
      <MainPage />
     </main>
   );
