@@ -1,18 +1,62 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;1000&display=swap");
 
-/* put in as a font family */
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+main {
+  background-color: #CEEDDB;
+  background-size: cover;
+  font-family: 'DM Sans', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-link {
+  color: #003554 !important;
+}
+
+#navbar {
+  background-color: #85BAA1;
+}
+
+#navbar-name {
+  color: #003554;
+}
+
+#navbar-items {
+  color: #003554;
+}
+
+#contact-header {
+  color: #003554;
+}
+
+#about-header {
+  color: #003554;
+}
+
+#about-me-paragraph {
+  color: #003554;
+  font-size: larger;
+}
+
+#resume-header {
+  color: #003554;
+}
+
+#resume-section {
+  color: #003554;
+}
+
+#portfolio-header {
+  color: #003554;
+}
+
+#project-title {
+  color: #003554;
+  font-weight: 300;
+}
+
+#portfolio-p {
+  color: #003554;
+}
+
+#footer {
+  background-color: #003554;
 }
