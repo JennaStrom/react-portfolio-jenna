@@ -3,7 +3,7 @@ export const projects = [
         title: "Beer and a Show",
         subtitle: "Find a beer and a show near you!",
         description: "This application pulls from two API's to look up events in any area you would like to search as well as breweries.",
-        image: "./beerAndaShow.png",
+        image: "./beerAndAShow.png",
         link: "https://jennastrom.github.io/Beer-and-a-show/",
     },
     {
