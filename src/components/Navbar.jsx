@@ -1,7 +1,5 @@
 import React from "react";
-import MainPage from "./MainPage"
 
-// export default function Navbar() {}
 function Navbar({ currentPage, handlePageChange }) {
     return (
         <section id="navbar" className="container-fluid border mb-5 pt-3 pb-3">
