@@ -43,10 +43,10 @@ function ContactForm() {
   }
   return (
     <section className="container">
-      <h1>Contact</h1>
-      <h2>Please fill out this contact form</h2>
+      <h1 className="mb-5">Contact Me!</h1>
+      {/* <h2>Please fill out this contact form</h2> */}
       <form>
-        <div class="mb-3">
+        <div className="mb-3">
           <label for="Input1" class="form-label">Name:</label>
           <input type="name" name="name" class="form-control" id="Input1" placeholder="Your name here" defaultValue={name} onBlur={handleChange}></input>
         </div>
