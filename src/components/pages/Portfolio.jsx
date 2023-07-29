@@ -10,16 +10,18 @@ export default function Portfolio() {
                     <p>Checkout the apps I have created below!</p>
                     <div className="row row-cols-2">
                         {projects.map((project) => (
-                            <div>
+                            <div style={{paddingBottom: "80px"}}>
                                 <a
                                     href={project.link}
                                     key={project.image}
                                     target="blank"
-                                    className="col">
+                                    className="col"
+                                    >
                                     <div className="col">
                                         <img
                                             alt="gallery"
                                             className="img-fluid"
+                                            style={{width: "600px", height: "350px"}}
                                             src={project.image}
                                         />
                                     </div>
