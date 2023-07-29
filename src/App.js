@@ -7,7 +7,7 @@ import './index.css';
 
 export default function App() {
   return (
-    <main className="">
+    <main className="box">
      <MainPage />
     </main>
   );
