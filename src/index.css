@@ -2,9 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;1000&display=swap");
 
 main {
+  height: 100vh;
   background-color: #CEEDDB;
   background-size: cover;
   font-family: 'DM Sans', sans-serif;
+}
+
+div {
+  background-color:#CEEDDB;
 }
 
 .nav-link {
@@ -52,6 +57,16 @@ main {
   color: #003554;
   font-weight: 300;
 }
+
+.fadein img{
+  opacity:0.5;
+  transition: 1s ease;
+  }
+  
+  .fadein img:hover{
+  opacity:1;
+  transition: 1s ease;
+  }
 
 #portfolio-p {
   color: #003554;
