@@ -20,7 +20,11 @@
 
 ## Usage
   This application works like a standard website. Please click on the link here: and then you can navigate to different pages using the links in the navbar.   
-  
+
+  <img width="1426" alt="Screenshot 2023-07-29 at 3 53 58 PM" src="https://github.com/JennaStrom/react-portfolio-jenna/assets/123525191/8ee6b225-4755-427d-8853-23874958ebb4">
+
+<img width="1440" alt="Screenshot 2023-07-29 at 3 54 27 PM" src="https://github.com/JennaStrom/react-portfolio-jenna/assets/123525191/0cd06e02-356a-4b10-88a9-1367f922cf13">
+
 
 ## License
   This application is covered by the [The MIT License](https://opensource.org/license/mit/)
