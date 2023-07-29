@@ -43,8 +43,7 @@ function ContactForm() {
   }
   return (
     <section className="container">
-      <h1 className="mb-5">Contact Me!</h1>
-      {/* <h2>Please fill out this contact form</h2> */}
+      <h1 id='contact-header' className="mb-5 fw-bold">Contact Me!</h1>
       <form>
         <div className="mb-3">
           <label for="Input1" class="form-label">Name:</label>
@@ -63,7 +62,8 @@ function ContactForm() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button class="btn btn-outline-dark " type="submit" onSubmit={handleSubmit}>Submit</button>
+        <button class="btn btn-outline-dark mb-5" type="submit" onSubmit={handleSubmit}>Submit</button>
+        <div className="pt-5"></div>
       </form>
     </section>
   );
