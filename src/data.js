@@ -14,11 +14,11 @@ export const projects = [
         link: "https://hidden-lake-38607-a47be9049bc1.herokuapp.com/",
     },
     {
-        title: "Final Project will go here",
-        subtitle: "Project 3",
-        description: "This was my third and final project for Boot Camp. I will update this once we do the project.",
-        image: "./comingSoonSS.png",
-        link: "https://github.com/JennaStrom",
+        title: "ABC GOAT",
+        subtitle: "A learning app for 3-7 year olds",
+        description: "ABC GOAT is a learning app that teaches kids to read while playing games and having fun! The game offers a play ground where the user can play a word guessing game, or just say words and see pictures associated with the word pop up!",
+        image: "./chalkboard-clipart-2.jpg",
+        link: "https://abc-goat-ddaec4f82441.herokuapp.com/#/",
     },
     {
         title: "Coding Quiz",
@@ -32,7 +32,7 @@ export const projects = [
         subtitle: "PWA Text Editor",
         description: "The application is a web text editor where the user can create notes with or without an internet connection. The user can also retrieve them for later use. This application allows the user to access visited pages even if the application is offline. They can even install it on their computer.",
         image: "./textEditor.png",
-        link: "https://dry-garden-02079-60cef9ddca86.herokuapp.com/",
+        link: "https://github.com/JennaStrom/textEditorPWA",
     },
     {
         title: "Social Network API",
